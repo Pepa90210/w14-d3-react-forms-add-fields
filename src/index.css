@@ -1,1 +1,42 @@
 /* TODO Add site wide styles */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,600&display=swap");
+*,
+body {
+  font-family: "Open-sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  font-size: 1.2em;
+  margin: 10px 0;
+  padding: 5px;
+  width: 200px;
+  height: 75px;
+  border-radius: 5px;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+.state {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.light {
+  background-color: rgb(189, 240, 247);
+  color: black;
+  height: 100vh;
+}
+
+.dark {
+  background-color: rgb(29, 29, 29);
+  color: white;
+  height: 100vh;
+}
